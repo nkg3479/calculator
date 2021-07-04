@@ -1,0 +1,50 @@
+@media(max-width:1028px){
+    .main{
+        width: 60vw;
+        height: 50vw;
+    }
+    .display{
+        width:50vw;
+        max-height: 12vw;
+    }
+    .inputs{
+        width:50vw;
+        height: 25vw;
+    }
+    textarea{
+        font-size:3.5vw;
+    }
+    .text1{
+        padding-top: 10px;
+        font-size: 2vw;
+    }
+    button{
+        max-height:8vw;
+        max-width: 12vw;
+    }
+}
+@media(max-width:600px){
+    .main{
+        width:65vw;
+        height:55vw;
+    }
+    .display{
+        width:55vw;
+        max-height: 13vw;
+    }
+    .inputs{
+        width:55vw;
+        height:30vw;
+    }
+    textarea{
+        font-size: 3.6vw;
+    }
+    .text1{
+        padding:5px;
+        font-size: 2.2vw;
+    }
+    button{
+        max-height: 10vw;
+        max-width: 14vw;
+    }
+}
