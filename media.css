@@ -25,26 +25,31 @@
 }
 @media(max-width:600px){
     .main{
-        width:65vw;
-        height:55vw;
+        width:85vw;
+        height:85vw;
     }
     .display{
-        width:55vw;
-        max-height: 13vw;
+        width:78vw;
+        margin-top: 15px;
+        max-height: 20vw;
     }
     .inputs{
-        width:55vw;
-        height:30vw;
+        width:70vw;
+        height: 45vw;
     }
     textarea{
-        font-size: 3.6vw;
+        font-size: 6vw;
     }
     .text1{
         padding:5px;
-        font-size: 2.2vw;
+        font-size: 4vw;
     }
     button{
-        max-height: 10vw;
-        max-width: 14vw;
+        max-height: 20vw;
+        max-width: 30vw;
+        font-size: 4vw;
+    }
+    .Ac{
+        max-width: 40vw;
     }
 }
