@@ -47,6 +47,8 @@ body{
     border: rgb(14, 13, 13) solid 0.2px;
     background-color: white;
     font-family: 'Raleway', sans-serif;
+    word-wrap: break-word;
+    word-break: break-all;
 }
 textarea{
     text-align: end;
