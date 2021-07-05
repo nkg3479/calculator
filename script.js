@@ -39,12 +39,19 @@ function compute(){
             p=0;
         }
         else if(a=="DEL"){
-            c=$(".text2").text();
-            if(c.length>=1){
-                $(".text2").val(c.substring(0,(c.length-1)));
+            var d=`${c}`;
+            if(d.length>=1){
+                $(".text2").val(d.substring(0,(d.length-1)));
+                if(p==1){
+                    c=parseFloat(d.substring(0,(d.length-1)));
+                }
+                else{
+                    c=parseInt(d.substring(0,(d.length-1)));
+                }
             }
             else{
                 $(".text2").val("");
+                c=0;
             }
         }
         else if(a=="="){
